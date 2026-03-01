@@ -1,0 +1,10 @@
+---
+- name: My First Practical Task
+  hosts: my_computer
+  tasks:
+    - name: Test Connection
+      ping:
+
+    - name: Print a message for my YouTube channel
+      debug:
+        msg: "Hello everyone, welcome to my YouTube channel. This is my first Ansible video."
