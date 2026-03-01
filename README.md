@@ -1,17 +1,15 @@
 # Reshma's Ansible Automation Lab 🚀
 
-Welcome to my learning journey! I am documenting my progress as I learn **Ansible** from scratch. I tackle practical tasks whenever I'm free and feel like learning, recording my process and uploading the code here.
+I am documenting my progress as I learn **Ansible** from scratch. I tackle practical tasks whenever I'm free and record the process for my YouTube channel.
 
 ## 📺 YouTube Series
-I'm sharing my "learning-by-doing" process to help other beginners. 
-[https://youtu.be/7DDnzB1DwAA?si=30IhCSBmV1dSwHQG]
-
-## 📂 Repository Structure
-* **`inventory.ini`**: This is the "address book." It tells Ansible to talk to my local machine (`localhost`).
-* **`test_ping.yml`**: This is the "instruction manual" (Playbook). It checks the connection and prints a custom message to the screen.
+[Day 1: https://youtu.be/7DDnzB1DwAA?si=30IhCSBmV1dSwHQG]
 
 ## 🚀 How to Execute
-To run this specific task, open your WSL terminal and use this command:
+To run a specific task, use the following command in your WSL terminal:
+`ansible-playbook -i inventory.ini <filename>.yml`
 
-```bash
-ansible-playbook -i inventory.ini test_ping.yml
+## ✅ Learning Progress (The Lab Log)
+| Task # | Description | File Link |
+| :--- | :--- | :--- |
+| **01** | Test Connection & Debug Message | [test_ping.yml](./test_ping.yml) |
